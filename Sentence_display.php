@@ -12,7 +12,7 @@
 function sentence_display($atts) {
 	// setting default value for attributes
 	$arrshort = shortcode_atts( array(
-	'post_num' => 1,
+	'post_num' => 2,
 	), $atts );
 	$num = $arrshort['post_num'];
 	// array created

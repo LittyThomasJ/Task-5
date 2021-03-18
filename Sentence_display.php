@@ -11,8 +11,9 @@
  // function for displaying senetnce
 function sentence_display($atts) {
 	// setting default value for attributes
-	$arrshort = extract(shortcode_atts( array(
-	'post_num' => 1,), $atts ));
+	$arrshort = shortcode_atts( array(
+	'post_num' => 1,
+	), $atts );
 	$num = $arrshort['post_num'];
 	// array created
 	$a=array("The cat is a domestic species of small carnivorous mammal. ","The domestic dog is a domesticated form of wolf. 		","Cattle, or cows and bulls, are the most common type of large domesticated ungulates. ","The domestic goat or simply 			goat is a subspecies of C.","Zebras are African equines with distinctive black-and-white striped coats.");
